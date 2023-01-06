@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/caracFragment">
+    <fragment
+        android:id="@+id/caracFragment"
+        android:name="com.example.estimation.CaracFragment"
+        android:label="CaracFragment"
+        tools:layout="@layout/carac_fragment" >
+        <action
+            android:id="@+id/action_caracFragment_to_estimationFragment"
+            app:destination="@id/estimationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/estimationFragment"
+        android:name="com.example.estimation.EstimationFragment"
+        android:label="EstimationFragment"
+        tools:layout="@layout/estimation_fragment"
+        >
+
+        <argument
+            android:name="estimation"
+            app:argType="float" />
+
+    </fragment>
+
+
+</navigation>

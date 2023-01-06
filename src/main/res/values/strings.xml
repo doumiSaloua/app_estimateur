@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Estimation</string>
+    <string  name="Hint0">Entrer une annee entre 2018 et 2022  </string>
+    <string  name="Hint1">Entrer 1 pour une maison 2 pour un appartement </string>
+    <string  name="pieces">Entrer le nombre de pieces principal </string>
+    <string  name="surface">Entrer la surface du terrain </string>
+    <string  name="surface_bati">Entrer la surface reelle du batiment </string>
+    <string  name="estimate">Estimer</string>
+    <string  name="estimation_text_format">Ce bien est estime a %1$f euros</string>
+</resources>
